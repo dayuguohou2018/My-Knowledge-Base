@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go Compiler Analyzer"
+  short_description: "Analyze compiler flow and IR models"
+  default_prompt: "Use $go-compiler-analysis to analyze this source module and output core flow, data pipeline, and DDD diagrams."
