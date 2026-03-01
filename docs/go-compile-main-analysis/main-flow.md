@@ -2,6 +2,16 @@
 
 > 范围：`src/cmd/compile/internal/gc/main.go` 中 `Main` 主流程（只保留核心编译阶段，忽略错误处理与初始化细节）。
 
+## 按阶段拆分文档
+
+- `docs/go-compile-main-analysis/stages/stage-01-parse-typecheck.md`
+- `docs/go-compile-main-analysis/stages/stage-02-frontend-transform.md`
+- `docs/go-compile-main-analysis/stages/stage-03-backend-prepare.md`
+- `docs/go-compile-main-analysis/stages/stage-04-func-scheduling-lowering.md`
+- `docs/go-compile-main-analysis/stages/stage-05-ssa-build-opt.md`
+- `docs/go-compile-main-analysis/stages/stage-06-machine-codegen.md`
+- `docs/go-compile-main-analysis/stages/stage-07-object-emission.md`
+
 ## 核心调用顺序
 
 ```mermaid

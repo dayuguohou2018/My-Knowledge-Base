@@ -1,0 +1,4 @@
+interface:
+  display_name: "代码分析"
+  short_description: "宏观调用主干 + 微观阶段细化 + 阶段时序图的结构化源码分析技能"
+  default_prompt: "Use $code-analysis to run macro pipeline analysis and per-stage micro deep dive with call chains, data outputs, and Mermaid diagrams."
